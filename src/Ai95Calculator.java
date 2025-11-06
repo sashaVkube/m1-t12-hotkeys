@@ -1,9 +1,9 @@
 public class Ai95Calculator {
     double cena = 46.35;
     double tax = 0.14;
-    double fullPrice = cena * (1 + tax);
+    double ai95FullPrice = cena * (1 + tax);
 
     public double calculate(double razmer) {
-        return razmer * fullPrice;
+        return razmer * ai95FullPrice;
     }
 }
